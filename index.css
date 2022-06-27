@@ -1,0 +1,72 @@
+.card-container h1{
+    text-align: center;
+    color: blue;
+    background-color: blueviolet;
+    }
+ .card-container .card1{
+    width: 500px;
+    height: auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-top: 100px;
+    outline: 10px dotted black;
+ }
+ .card-container  .card1 img{
+   
+   width: 100px;
+   height: auto;
+ }
+  body{
+   background-color: rgb(175, 171, 171);
+ }
+.my-image{
+   width: 300px;
+   height: 200px;
+   border:3px solid black;
+   background-image: url(https://images.unsplash.com/photo-1655842956559-ebe998667398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+background-size: contain;
+background-repeat:no-repeat;
+}
+body h1{
+   text-align: center;
+   color: rgb(13, 13, 13);
+}
+.card{
+   border: 2px solid black;
+   width: 300px;
+   height: auto;
+   
+}
+.card .card-image img{
+   width: 100%;
+}
+.card .card-content h3{
+   text-align: center;
+}
+.card .card-content p{
+   padding: 16px;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card .card-button a{
+   display: block;
+   text-decoration: none;
+   color: rgb(255, 240, 240);
+   background-color: rgb(175, 14, 14);
+   padding: 3px;
+   text-align: center;
+   
+}
+.card{
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   box-shadow: 1px 13px 20px #5c1212;
+
+}
+.card .card-button :hover{
+   color: black;
+   background-color: rgb(100, 97, 104);
+}

@@ -1,0 +1,19 @@
+body h1{
+    background-color: aqua;
+    border: 3px dotted rgb(90, 112, 90);
+}
+.oppo img{
+    border: 30pxs solid green;
+    width: 1700px;
+    height: 200px;
+    opacity: 0.3;
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: -1;
+    text-align: center;
+    
+}
+.oppo .oppo-content  p{
+font-size: larger;
+}
